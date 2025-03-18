@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Prathamesh Palatshaha - Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="main.css" />
+		<style>
+			h1 {
+				word-wrap: break-word;
+				font-size: 2.5rem;
+				line-height: 1.3;
+				text-align: center;
+			}
+			input, textarea {
+				background-color: #f4f4f4 !important;
+				border: 1px solid #ccc;
+				padding: 10px;
+				border-radius: 5px;
+				width: 100%;
+				margin: 10px 0;
+			}
+			.project-box {
+				cursor: pointer;
+				transition: transform 0.3s ease;
+				text-decoration: none;
+				color: inherit;
+				display: block;
+			}
+			.project-box:hover {
+				transform: scale(1.05);
+			}
+			a {
+				text-decoration: none;
+			}
+            .footer {
+				text-align: center;
+				padding: 20px;
+				background: #333;
+				color: white;
+			}
+			.footer a {
+				color: white;
+				margin: 0 10px;
+				font-size: 1.5rem;
+				transition: color 0.3s;
+			}
+			.footer a:hover {
+				color: #f4f4f4;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Navigation -->
+		<nav id="nav">
+			<ul class="container">
+				<li><a href="#top">Home</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#resume">Resume</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		<!-- Home -->
+		<article id="top" class="wrapper style1">
+			<div class="container">
+				<div class="row">
+					<div class="col-4 col-5-large col-12-medium">
+						<span class="image fit"><img src="Prathamesh_Palatshaha.png" alt="Profile Picture" /></span>
+					</div>
+					<div class="col-8 col-7-large col-12-medium">
+						<header>
+							<h1>Hi, I'm <strong>Prathamesh Palatshaha</strong></h1>
+						</header>
+						<p>A passionate developer specializing in Machine Learning, dedicated to building intelligent solutions that drive real-world impact. With a strong foundation in data science and problem-solving, I strive to leverage AI to unlock insights and innovation.</p>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<!-- Projects -->
+		<article id="projects" class="wrapper style2">
+			<div class="container">
+				<header>
+					<h2>My Projects</h2>
+				</header>
+				<div class="row aln-center">
+					<div class="col-4 col-6-medium col-12-small">
+						<a href="https://github.com/Prathamesh-Palatshaha/Titanic-Dataset-Survival-Prediction-Using-Logistic-Regression" target="_blank" class="project-box">
+							<section class="box style1">
+								<h3>Titanic Survival Prediction Kaggle Competition</h3>
+								<p>This project involves predicting the survival of passengers on the Titanic using Logistic Regression. The dataset used is from Kaggle and contains information about the passengers such as age, sex, ticket class, and more. The goal is to build a predictive model that can determine whether a passenger survived the Titanic disaster based on these features.</p>
+							</section>
+						</a>
+					</div> 
+					<div class="col-4 col-6-medium col-12-small">
+						<a href="https://github.com/Prathamesh-Palatshaha/Malware-Detection-System" target="_blank" class="project-box">
+							<section class="box style1">
+								<h3>Malware Detection System</h3>
+								<p>ML-based model detecting malware with high accuracy.</p>
+							</section>
+						</a>
+					</div>
+				</div>
+				<div style="text-align: center; margin-top: 20px;">
+					<a href="https://github.com/Prathamesh-Palatshaha" class="button large" target="_blank">Check out more projects here</a>
+				</div>
+			</div>
+		</article>
+
+		<!-- Resume -->
+		<article id="resume" class="wrapper style3">
+			<div class="container">
+				<header>
+					<h2>Resume</h2>
+				</header>
+				<a href="resume.pdf" download class="button large">Download Resume</a>
+			</div>
+		</article>
+
+		<!-- Contact -->
+		<article id="contact" class="wrapper style4">
+			<div class="container medium">
+				<header>
+					<h2>Contact Me</h2>
+				</header>
+				<form id="contact-form" action="https://formspree.io/f/xanenvyg" method="POST">
+					<input type="text" name="name" placeholder="Your Name" required>
+					<input type="email" name="email" placeholder="Your Email" required>
+					<textarea name="message" placeholder="Your Message" required></textarea>
+					<button type="submit">Send</button>
+				</form>
+			</div>
+		</article>
+
+		<!-- Scripts -->
+		<script>
+			document.getElementById("contact-form").addEventListener("submit", function(event) {
+				alert("Message sent successfully!");
+			});
+		</script>
+
+        <!-- Footer Section with Social Links -->
+		<footer class="footer">
+			<p>Connect with me:</p>
+			<a href="https://github.com/Prathamesh-Palatshaha" target="_blank"><i class="fab fa-github"></i></a>
+			<a href="https://www.linkedin.com/in/prathamesh-palatshaha/" target="_blank"><i class="fab fa-linkedin"></i></a>
+			<a href="mailto:pratham010503@gmail.com"><i class="fas fa-envelope"></i></a>
+		</footer>
+
+
+	</body>
+</html>
